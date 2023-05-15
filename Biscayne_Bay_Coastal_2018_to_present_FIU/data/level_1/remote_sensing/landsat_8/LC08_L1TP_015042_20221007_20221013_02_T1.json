@@ -1,0 +1,10 @@
+{
+  "image_metadata": {
+    "source": "USGS",
+    "satellite": "Landsat 8-9",
+    "acquisition_date": "2022-12-31",
+    "download_url": "https://earthexplorer.usgs.gov/",
+    "scene_id": "LLC08_L1TP_015042_20221007_20221013_02_T1",
+    "download_method": "GUI"
+  }
+}

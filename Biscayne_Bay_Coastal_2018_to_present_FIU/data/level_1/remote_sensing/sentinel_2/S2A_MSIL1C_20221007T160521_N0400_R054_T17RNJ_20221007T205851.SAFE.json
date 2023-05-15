@@ -1,0 +1,11 @@
+{
+  "image_metadata": {
+    "source": "ESA",
+    "satellite": "Sentinel-2",
+    "acquisition_date": "2022-12-31",
+    "download_url": "https://scihub.copernicus.eu/",
+    "scene_id": "S2A_MSIL1C_20221007T160521_N0400_R054_T17RNJ_20221007T205851.SAFE",
+    "download_method": "Script",
+    "Script": "downloader_sentinel_2.py"
+  }
+}
