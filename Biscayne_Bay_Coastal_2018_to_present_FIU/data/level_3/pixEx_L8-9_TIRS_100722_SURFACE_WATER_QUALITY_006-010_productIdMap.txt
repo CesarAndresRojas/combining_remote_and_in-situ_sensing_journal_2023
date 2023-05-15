@@ -1,0 +1,3 @@
+# Product ID Map
+ProductID	ProductType	ProductLocation
+0	NetCDF	C:\Users\neokn\OneDrive - Florida International University\Remote Sensing\src\Data Management\Projects\Biscayne_Bay_Coastal_2018_to_present_FIU\data\level_2\remote_sensing\landsat_8\L8_OLI_2022_10_07_15_50_36_015042\L8_TIRS_2022_10_07_15_50_36_015042_ST_resampled.dim

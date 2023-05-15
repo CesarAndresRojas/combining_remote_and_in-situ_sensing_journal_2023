@@ -1,0 +1,11 @@
+## ACOLITE settings
+## Written at 2023-02-07 15:12:21
+inputfile=/Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_1/remote_sensing/landsat_8/LC08_L1TP_015042_20221007_20221013_02_T1
+output=/Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_07_15_50_36_015042
+polygon=/Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/locations/Biscayne_Bay_North_Square.json
+l2w_parameters=None
+rgb_rhot=True
+rgb_rhos=True
+map_l2w=True
+runid=20230207_151220
+new_path=None

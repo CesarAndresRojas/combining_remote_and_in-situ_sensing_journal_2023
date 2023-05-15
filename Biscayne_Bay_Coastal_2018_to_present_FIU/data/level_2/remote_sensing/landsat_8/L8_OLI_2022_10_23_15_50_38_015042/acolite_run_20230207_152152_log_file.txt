@@ -1,0 +1,203 @@
+2023-02-07 15:22:31: Running ACOLITE processing - Generic GitHub Clone
+2023-02-07 15:22:31: Python - darwin - 3.10.9 (v3.10.9:1dd9be6584, Dec  6 2022, 14:37:36) [Clang 13.0.0 (clang-1300.0.29.30)]
+2023-02-07 15:22:31: Platform - Darwin 22.3.0 - x86_64 - Darwin Kernel Version 22.3.0: Thu Jan  5 20:53:49 PST 2023; root:xnu-8792.81.2~2/RELEASE_X86_64
+2023-02-07 15:22:31: Run ID - 20230207_152152
+2023-02-07 15:22:31: Warning: Rather long input filename (240 characters)
+2023-02-07 15:22:31: This may give issues in Windows due to path length limitations, file(s):
+2023-02-07 15:22:31: 240
+2023-02-07 15:22:31: /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_1/remote_sensing/landsat_8/LC08_L1TP_015042_20221023_20221101_02_T1
+2023-02-07 15:22:31: Starting conversion of 1 scenes
+2023-02-07 15:22:31: Starting conversion of /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_1/remote_sensing/landsat_8/LC08_L1TP_015042_20221023_20221101_02_T1
+2023-02-07 15:22:31: Importing metadata from /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_1/remote_sensing/landsat_8/LC08_L1TP_015042_20221023_20221101_02_T1
+2023-02-07 15:22:31: Using limit from polygon envelope: [25.81101826700782, -80.18766403198242, 25.917754184177593, -80.12346267700195]
+2023-02-07 15:22:33: Reading per pixel geometry
+2023-02-07 15:22:33: Wrote raa
+2023-02-07 15:22:33: Wrote vza
+2023-02-07 15:22:33: Wrote sza
+2023-02-07 15:22:33: Writing geolocation lon/lat
+2023-02-07 15:22:33: Wrote lon
+2023-02-07 15:22:33: Wrote lat
+2023-02-07 15:22:33: Converting bands
+2023-02-07 15:22:33: Converting bands: Wrote rhot_443 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_483 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_561 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_655 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_865 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_1609 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_2201 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_592 to separate L1R_pan
+2023-02-07 15:22:33: Converting bands: Wrote rhot_592 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote rhot_1373 ((396, 219))
+2023-02-07 15:22:33: Converting bands: Wrote bt10
+2023-02-07 15:22:33: Converting bands: Wrote bt11
+2023-02-07 15:22:33: Writing QA bands
+2023-02-07 15:22:33: Writing QA bands: Wrote QA_PIXEL
+2023-02-07 15:22:33: Writing QA bands: Wrote QA_SATURATION
+2023-02-07 15:22:33: Conversion took 2.1 seconds
+2023-02-07 15:22:33: Created /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L1R.nc
+2023-02-07 15:22:35: Wrote /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L1R_rgb_rhot.png
+2023-02-07 15:22:35: Running acolite for /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L1R.nc
+2023-02-07 15:22:35: Getting ancillary data for 2022-10-23T15:50:38.3188699Z -80.156E 25.864N
+2023-02-07 15:22:36: EARTHDATA user name and password required for download of https://oceandata.sci.gsfc.nasa.gov/ob/getfile/N202229600_MET_NCEPR2_6h.hdf.bz2
+2023-02-07 15:22:36: EARTHDATA user name and password required for download of https://oceandata.sci.gsfc.nasa.gov/ob/getfile/N202229606_MET_NCEPR2_6h.hdf.bz2
+2023-02-07 15:22:36: EARTHDATA user name and password required for download of https://oceandata.sci.gsfc.nasa.gov/ob/getfile/N202229612_MET_NCEPR2_6h.hdf.bz2
+2023-02-07 15:22:36: EARTHDATA user name and password required for download of https://oceandata.sci.gsfc.nasa.gov/ob/getfile/N202229618_MET_NCEPR2_6h.hdf.bz2
+2023-02-07 15:22:36: EARTHDATA user name and password required for download of https://oceandata.sci.gsfc.nasa.gov/ob/getfile/N202229700_MET_NCEPR2_6h.hdf.bz2
+2023-02-07 15:22:36: EARTHDATA user name and password required for download of https://oceandata.sci.gsfc.nasa.gov/ob/getfile/N202229600_O3_AURAOMI_24h.hdf
+2023-02-07 15:22:36: Using DSF atmospheric correction
+2023-02-07 15:22:36: Processing with 4 tiles (2x2 tiles of 200x200 pixels)
+2023-02-07 15:22:36: Writing lon
+2023-02-07 15:22:36: Wrote lon
+2023-02-07 15:22:36: Writing lat
+2023-02-07 15:22:36: Wrote lat
+2023-02-07 15:22:36: Writing sza
+2023-02-07 15:22:36: Wrote sza
+2023-02-07 15:22:36: Writing vza
+2023-02-07 15:22:36: Wrote vza
+2023-02-07 15:22:36: Writing raa
+2023-02-07 15:22:36: Wrote raa
+2023-02-07 15:22:36: Writing QA_PIXEL
+2023-02-07 15:22:36: Wrote QA_PIXEL
+2023-02-07 15:22:36: Writing QA_SATURATION
+2023-02-07 15:22:36: Wrote QA_SATURATION
+2023-02-07 15:22:36: Loading LUTs ['ACOLITE-LUT-202110-MOD1', 'ACOLITE-LUT-202110-MOD2']
+2023-02-07 15:22:36: romix+rsky_t
+2023-02-07 15:22:36: True
+2023-02-07 15:22:38: Loading LUTs took 1.9 s
+2023-02-07 15:22:38: 1
+2023-02-07 15:22:38: rhot_443
+2023-02-07 15:22:38: L8_OLI/B1 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B1 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 2
+2023-02-07 15:22:38: rhot_483
+2023-02-07 15:22:38: L8_OLI/B2 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B2 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 3
+2023-02-07 15:22:38: rhot_561
+2023-02-07 15:22:38: L8_OLI/B3 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B3 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 4
+2023-02-07 15:22:38: rhot_655
+2023-02-07 15:22:38: L8_OLI/B4 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B4 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 5
+2023-02-07 15:22:38: rhot_865
+2023-02-07 15:22:38: L8_OLI/B5 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B5 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 6
+2023-02-07 15:22:38: rhot_1609
+2023-02-07 15:22:38: L8_OLI/B6 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B6 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 7
+2023-02-07 15:22:38: rhot_2201
+2023-02-07 15:22:38: L8_OLI/B7 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B7 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: 8
+2023-02-07 15:22:38: rhot_592
+2023-02-07 15:22:38: L8_OLI/B8 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-02-07 15:22:38: L8_OLI/B8 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-02-07 15:22:38: Choosing best fitting model: min_drmsd (2 bands)
+2023-02-07 15:22:38: Computing RMSD for model ACOLITE-LUT-202110-MOD1
+2023-02-07 15:22:38: Computing RMSD for model ACOLITE-LUT-202110-MOD2
+2023-02-07 15:22:38: Selecting most common model for processing.
+2023-02-07 15:22:38: ACOLITE-LUT-202110-MOD1: 0.0%
+2023-02-07 15:22:38: ACOLITE-LUT-202110-MOD2: 100.0%: mean aot of subset = 0.14
+2023-02-07 15:22:38: Selected ACOLITE-LUT-202110-MOD2, mean aot = 0.14
+2023-02-07 15:22:38: use_revlut
+2023-02-07 15:22:38: True
+2023-02-07 15:22:38: Wrote rhot_443
+2023-02-07 15:22:38: Computing surface reflectance
+2023-02-07 15:22:38: 1
+2023-02-07 15:22:38: 443
+2023-02-07 15:22:38: 0.998
+2023-02-07 15:22:38: Interpolating tiles
+2023-02-07 15:22:38: Wrote rhos_443
+2023-02-07 15:22:38: L8_OLI/B1 took 0.1s (RevLUT)
+2023-02-07 15:22:38: Wrote rhot_483
+2023-02-07 15:22:38: Computing surface reflectance
+2023-02-07 15:22:38: 2
+2023-02-07 15:22:38: 483
+2023-02-07 15:22:38: 0.986
+2023-02-07 15:22:38: Interpolating tiles
+2023-02-07 15:22:38: Wrote rhos_483
+2023-02-07 15:22:38: L8_OLI/B2 took 0.1s (RevLUT)
+2023-02-07 15:22:38: Wrote rhot_561
+2023-02-07 15:22:38: Computing surface reflectance
+2023-02-07 15:22:38: 3
+2023-02-07 15:22:38: 561
+2023-02-07 15:22:38: 0.925
+2023-02-07 15:22:38: Interpolating tiles
+2023-02-07 15:22:38: Wrote rhos_561
+2023-02-07 15:22:38: L8_OLI/B3 took 0.2s (RevLUT)
+2023-02-07 15:22:39: Wrote rhot_655
+2023-02-07 15:22:39: Computing surface reflectance
+2023-02-07 15:22:39: 4
+2023-02-07 15:22:39: 655
+2023-02-07 15:22:39: 0.948
+2023-02-07 15:22:39: Interpolating tiles
+2023-02-07 15:22:39: Wrote rhos_655
+2023-02-07 15:22:39: L8_OLI/B4 took 0.1s (RevLUT)
+2023-02-07 15:22:39: Wrote rhot_865
+2023-02-07 15:22:39: Computing surface reflectance
+2023-02-07 15:22:39: 5
+2023-02-07 15:22:39: 865
+2023-02-07 15:22:39: 0.996
+2023-02-07 15:22:39: Interpolating tiles
+2023-02-07 15:22:39: Wrote rhos_865
+2023-02-07 15:22:39: L8_OLI/B5 took 0.1s (RevLUT)
+2023-02-07 15:22:39: Wrote rhot_1609
+2023-02-07 15:22:39: Computing surface reflectance
+2023-02-07 15:22:39: 6
+2023-02-07 15:22:39: 1609
+2023-02-07 15:22:39: 0.962
+2023-02-07 15:22:39: Interpolating tiles
+2023-02-07 15:22:39: Wrote rhos_1609
+2023-02-07 15:22:39: L8_OLI/B6 took 0.2s (RevLUT)
+2023-02-07 15:22:39: Wrote rhot_2201
+2023-02-07 15:22:39: Computing surface reflectance
+2023-02-07 15:22:39: 7
+2023-02-07 15:22:39: 2201
+2023-02-07 15:22:39: 0.914
+2023-02-07 15:22:39: Interpolating tiles
+2023-02-07 15:22:39: Wrote rhos_2201
+2023-02-07 15:22:39: L8_OLI/B7 took 0.1s (RevLUT)
+2023-02-07 15:22:39: Wrote rhot_592
+2023-02-07 15:22:39: Computing surface reflectance
+2023-02-07 15:22:39: 8
+2023-02-07 15:22:39: 592
+2023-02-07 15:22:39: 0.933
+2023-02-07 15:22:39: Interpolating tiles
+2023-02-07 15:22:39: Wrote rhos_592
+2023-02-07 15:22:39: L8_OLI/B8 took 0.1s (RevLUT)
+2023-02-07 15:22:39: Wrote rhot_1373
+2023-02-07 15:22:39: Starting glint correction
+2023-02-07 15:22:39: Performing glint correction for band 1 (443 nm)
+2023-02-07 15:22:39: Wrote rhos_443
+2023-02-07 15:22:39: Performing glint correction for band 2 (483 nm)
+2023-02-07 15:22:39: Wrote rhos_483
+2023-02-07 15:22:39: Performing glint correction for band 3 (561 nm)
+2023-02-07 15:22:39: Wrote rhos_561
+2023-02-07 15:22:39: Performing glint correction for band 4 (655 nm)
+2023-02-07 15:22:39: Wrote rhos_655
+2023-02-07 15:22:39: Performing glint correction for band 5 (865 nm)
+2023-02-07 15:22:40: Wrote rhos_865
+2023-02-07 15:22:40: Performing glint correction for band 6 (1609 nm)
+2023-02-07 15:22:40: Wrote rhos_1609
+2023-02-07 15:22:40: Performing glint correction for band 7 (2201 nm)
+2023-02-07 15:22:40: Wrote rhos_2201
+2023-02-07 15:22:40: Performing glint correction for band 8 (592 nm)
+2023-02-07 15:22:40: Wrote rhos_592
+2023-02-07 15:22:40: Computing orange band
+2023-02-07 15:22:40: Wrote rhos_613
+2023-02-07 15:22:40: Wrote /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L2R.nc
+2023-02-07 15:22:41: Wrote /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L2R_rgb_rhos.png
+2023-02-07 15:22:41: Loaded emissivity file /Users/croja022/Desktop/acolite-main/data/TACT/emissivity_water.json
+2023-02-07 15:22:41: Running tact for /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L1R.nc
+2023-02-07 15:22:41: Running ACOLITE/TACT for /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_OLI_2022_10_23_15_50_38_015042_L1R.nc
+2023-02-07 15:22:42: Wrote lon to /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST.nc
+2023-02-07 15:22:42: Wrote lat to /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST.nc
+2023-02-07 15:22:42: Wrote st10 to /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST.nc
+2023-02-07 15:22:42: Wrote st11 to /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST.nc
+2023-02-07 15:22:42: Wrote /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST.nc
+2023-02-07 15:22:43: Wrote /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST_st10.png
+2023-02-07 15:22:43: Wrote /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/src/Data Management/Projects/Biscayne_Bay_Coastal_2018_to_present_FIU/data/level_2/remote_sensing/landsat_8/L8_OLI_2022_10_23_15_50_38_015042/L8_TIRS_2022_10_23_15_50_38_015042_ST_st11.png
