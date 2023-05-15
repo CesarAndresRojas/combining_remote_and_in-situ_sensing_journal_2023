@@ -1,0 +1,292 @@
+2023-01-20 14:16:49: Run ID - 20230120_123830
+2023-01-20 14:16:49: Starting conversion of 1 scenes
+2023-01-20 14:16:49: Starting conversion of /Users/croja022/Desktop/S2B_MSIL1C_20221022T160509_N0400_R054_T17RNJ_20221022T193152.SAFE
+2023-01-20 14:16:49: Importing metadata from L1C_T17RNJ_A029395_20221022T160510
+2023-01-20 14:16:49: Using limit from polygon envelope: [25.81101826700782, -80.18766403198242, 25.917754184177593, -80.12346267700195]
+2023-01-20 14:16:50: clip mask
+2023-01-20 14:16:50: (1186, 653)
+2023-01-20 14:16:50: Reading per pixel geometry
+2023-01-20 14:16:50: Computing band average per detector geometry
+2023-01-20 14:16:50: Detector 2
+2023-01-20 14:16:50: Detector 3
+2023-01-20 14:16:51: Detector 4
+2023-01-20 14:16:51: Detector 5
+2023-01-20 14:16:51: Detector 6
+2023-01-20 14:16:51: Detector 7
+2023-01-20 14:16:52: Wrote raa (1186, 653)
+2023-01-20 14:16:52: Wrote vza (1186, 653)
+2023-01-20 14:16:52: Wrote sza (1186, 653)
+2023-01-20 14:16:52: Writing geolocation lon/lat
+2023-01-20 14:16:52: (1186, 653)
+2023-01-20 14:16:52: Wrote lon
+2023-01-20 14:16:52: (1186, 653)
+2023-01-20 14:16:52: Wrote lat
+2023-01-20 14:16:52: Converting bands
+2023-01-20 14:16:52: Converting bands: Wrote rhot_442 ((1186, 653))
+2023-01-20 14:16:52: Converting bands: Wrote rhot_492 ((1186, 653))
+2023-01-20 14:16:53: Converting bands: Wrote rhot_559 ((1186, 653))
+2023-01-20 14:16:53: Converting bands: Wrote rhot_665 ((1186, 653))
+2023-01-20 14:16:53: Converting bands: Wrote rhot_704 ((1186, 653))
+2023-01-20 14:16:53: Converting bands: Wrote rhot_739 ((1186, 653))
+2023-01-20 14:16:53: Converting bands: Wrote rhot_780 ((1186, 653))
+2023-01-20 14:16:54: Converting bands: Wrote rhot_833 ((1186, 653))
+2023-01-20 14:16:54: Converting bands: Wrote rhot_864 ((1186, 653))
+2023-01-20 14:16:54: Converting bands: Wrote rhot_943 ((1186, 653))
+2023-01-20 14:16:54: Converting bands: Wrote rhot_1377 ((1186, 653))
+2023-01-20 14:16:54: Converting bands: Wrote rhot_1610 ((1186, 653))
+2023-01-20 14:16:54: Converting bands: Wrote rhot_2186 ((1186, 653))
+2023-01-20 14:16:54: Conversion took 4.8 seconds
+2023-01-20 14:16:54: Created /Users/croja022/Desktop/out2/S2B_MSI_2022_10_22_16_06_12_T17RNJ_L1R.nc
+2023-01-20 14:16:56: Wrote /Users/croja022/Desktop/out2/S2B_MSI_2022_10_22_16_06_12_T17RNJ_L1R_rgb_rhot.png
+2023-01-20 14:16:57: Running acolite for /Users/croja022/Desktop/out2/S2B_MSI_2022_10_22_16_06_12_T17RNJ_L1R.nc
+2023-01-20 14:16:57: Getting ancillary data for 2022-10-22T16:06:12.780969+00:00 -80.155E 25.864N
+2023-01-20 14:17:44: Downloading file N202229500_MET_NCEPR2_6h.hdf.bz2 failed
+2023-01-20 14:18:34: Downloading file N202229506_MET_NCEPR2_6h.hdf.bz2 failed
+2023-01-20 14:19:23: Downloading file N202229512_MET_NCEPR2_6h.hdf.bz2 failed
+2023-01-20 14:20:11: Downloading file N202229518_MET_NCEPR2_6h.hdf.bz2 failed
+2023-01-20 14:20:59: Downloading file N202229600_MET_NCEPR2_6h.hdf.bz2 failed
+2023-01-20 14:21:46: Downloading file N202229500_O3_AURAOMI_24h.hdf failed
+2023-01-20 14:21:46: Using DSF atmospheric correction
+2023-01-20 14:21:46: Processing with 4 tiles (2x2 tiles of 600x600 pixels)
+2023-01-20 14:21:46: Writing lon
+2023-01-20 14:21:46: Wrote lon
+2023-01-20 14:21:46: Writing lat
+2023-01-20 14:21:46: Wrote lat
+2023-01-20 14:21:46: Writing sza
+2023-01-20 14:21:46: Wrote sza
+2023-01-20 14:21:46: Writing vza
+2023-01-20 14:21:46: Wrote vza
+2023-01-20 14:21:46: Writing raa
+2023-01-20 14:21:46: Wrote raa
+2023-01-20 14:21:46: Loading LUTs
+2023-01-20 14:21:46: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-1.nc
+2023-01-20 14:21:47: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-1.nc
+2023-01-20 14:21:47: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-2.nc
+2023-01-20 14:21:49: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-2.nc
+2023-01-20 14:21:49: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-3.nc
+2023-01-20 14:21:50: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-3.nc
+2023-01-20 14:21:50: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-4.nc
+2023-01-20 14:21:51: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-4.nc
+2023-01-20 14:21:51: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-5.nc
+2023-01-20 14:21:52: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-5.nc
+2023-01-20 14:21:52: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-6.nc
+2023-01-20 14:21:54: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-6.nc
+2023-01-20 14:21:54: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-7.nc
+2023-01-20 14:21:55: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-7.nc
+2023-01-20 14:21:55: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-8.nc
+2023-01-20 14:21:56: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-8.nc
+2023-01-20 14:21:56: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-8A.nc
+2023-01-20 14:21:58: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-8A.nc
+2023-01-20 14:21:58: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-9.nc
+2023-01-20 14:21:59: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-9.nc
+2023-01-20 14:21:59: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-10.nc
+2023-01-20 14:22:00: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-10.nc
+2023-01-20 14:22:00: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-11.nc
+2023-01-20 14:22:02: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-11.nc
+2023-01-20 14:22:02: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-12.nc
+2023-01-20 14:22:03: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD1-reverse-S2B_MSI-romix-12.nc
+2023-01-20 14:22:03: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-1.nc
+2023-01-20 14:22:04: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-1.nc
+2023-01-20 14:22:04: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-2.nc
+2023-01-20 14:22:06: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-2.nc
+2023-01-20 14:22:06: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-3.nc
+2023-01-20 14:22:07: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-3.nc
+2023-01-20 14:22:07: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-4.nc
+2023-01-20 14:22:08: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-4.nc
+2023-01-20 14:22:08: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-5.nc
+2023-01-20 14:22:10: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-5.nc
+2023-01-20 14:22:10: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-6.nc
+2023-01-20 14:22:11: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-6.nc
+2023-01-20 14:22:11: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-7.nc
+2023-01-20 14:22:12: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-7.nc
+2023-01-20 14:22:12: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-8.nc
+2023-01-20 14:22:13: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-8.nc
+2023-01-20 14:22:13: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-8A.nc
+2023-01-20 14:22:15: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-8A.nc
+2023-01-20 14:22:15: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-9.nc
+2023-01-20 14:22:16: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-9.nc
+2023-01-20 14:22:16: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-10.nc
+2023-01-20 14:22:17: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-10.nc
+2023-01-20 14:22:17: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-11.nc
+2023-01-20 14:22:19: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-11.nc
+2023-01-20 14:22:19: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-12.nc
+2023-01-20 14:22:20: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110-Reverse/S2B_MSI/ACOLITE-LUT-202110-MOD2-reverse-S2B_MSI-romix-12.nc
+2023-01-20 14:22:20: romix+rsky_t
+2023-01-20 14:22:20: True
+2023-01-20 14:22:20: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-0500mb_S2B_MSI.nc
+2023-01-20 14:22:22: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-0500mb_S2B_MSI.nc
+2023-01-20 14:22:22: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-0750mb_S2B_MSI.nc
+2023-01-20 14:22:25: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-0750mb_S2B_MSI.nc
+2023-01-20 14:22:25: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-1013mb_S2B_MSI.nc
+2023-01-20 14:22:27: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-1013mb_S2B_MSI.nc
+2023-01-20 14:22:27: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-1100mb_S2B_MSI.nc
+2023-01-20 14:22:30: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD1-1100mb_S2B_MSI.nc
+2023-01-20 14:22:33: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-0500mb_S2B_MSI.nc
+2023-01-20 14:22:36: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-0500mb_S2B_MSI.nc
+2023-01-20 14:22:36: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-0750mb_S2B_MSI.nc
+2023-01-20 14:22:39: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-0750mb_S2B_MSI.nc
+2023-01-20 14:22:39: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-1013mb_S2B_MSI.nc
+2023-01-20 14:22:41: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-1013mb_S2B_MSI.nc
+2023-01-20 14:22:41: Getting remote LUT https://raw.githubusercontent.com/acolite/acolite_luts/main/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-1100mb_S2B_MSI.nc
+2023-01-20 14:22:44: Testing LUT /Users/croja022/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Remote Sensing/ACOLITE/acolite_py_mac_20221114.0/acolite_py_mac/data/LUT/ACOLITE-LUT-202110/S2B_MSI/ACOLITE-LUT-202110-MOD2-1100mb_S2B_MSI.nc
+2023-01-20 14:22:47: Loading LUTs took 60.5 s
+2023-01-20 14:22:47: 1
+2023-01-20 14:22:47: rhot_442
+2023-01-20 14:22:47: S2B_MSI/B1 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B1 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:47: 2
+2023-01-20 14:22:47: rhot_492
+2023-01-20 14:22:47: S2B_MSI/B2 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B2 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:47: 3
+2023-01-20 14:22:47: rhot_559
+2023-01-20 14:22:47: S2B_MSI/B3 ACOLITE-LUT-202110-MOD1 took 0.001s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B3 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:47: 4
+2023-01-20 14:22:47: rhot_665
+2023-01-20 14:22:47: S2B_MSI/B4 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B4 ACOLITE-LUT-202110-MOD2 took 0.011s (RevLUT)
+2023-01-20 14:22:47: 5
+2023-01-20 14:22:47: rhot_704
+2023-01-20 14:22:47: S2B_MSI/B5 ACOLITE-LUT-202110-MOD1 took 0.001s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B5 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:47: 6
+2023-01-20 14:22:47: rhot_739
+2023-01-20 14:22:47: S2B_MSI/B6 ACOLITE-LUT-202110-MOD1 took 0.001s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B6 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:47: 7
+2023-01-20 14:22:47: rhot_780
+2023-01-20 14:22:47: S2B_MSI/B7 ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-01-20 14:22:47: S2B_MSI/B7 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:47: 8
+2023-01-20 14:22:47: rhot_833
+2023-01-20 14:22:48: S2B_MSI/B8 ACOLITE-LUT-202110-MOD1 took 0.003s (RevLUT)
+2023-01-20 14:22:48: S2B_MSI/B8 ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:48: 8A
+2023-01-20 14:22:48: rhot_864
+2023-01-20 14:22:48: S2B_MSI/B8A ACOLITE-LUT-202110-MOD1 took 0.002s (RevLUT)
+2023-01-20 14:22:48: S2B_MSI/B8A ACOLITE-LUT-202110-MOD2 took 0.002s (RevLUT)
+2023-01-20 14:22:48: Choosing best fitting model: min_drmsd (2 bands)
+2023-01-20 14:22:48: Computing RMSD for model ACOLITE-LUT-202110-MOD1
+2023-01-20 14:22:48: Computing RMSD for model ACOLITE-LUT-202110-MOD2
+2023-01-20 14:22:48: Selecting most common model for processing.
+2023-01-20 14:22:48: ACOLITE-LUT-202110-MOD1: 50.0%: mean aot of subset = 0.13
+2023-01-20 14:22:48: ACOLITE-LUT-202110-MOD2: 50.0%: mean aot of subset = 0.19
+2023-01-20 14:22:48: Selected ACOLITE-LUT-202110-MOD2, mean aot = 0.14
+2023-01-20 14:22:48: use_revlut
+2023-01-20 14:22:48: True
+2023-01-20 14:22:48: Wrote rhot_442
+2023-01-20 14:22:48: Computing surface reflectance
+2023-01-20 14:22:48: 1
+2023-01-20 14:22:48: 442
+2023-01-20 14:22:48: 0.998
+2023-01-20 14:22:48: Interpolating tiles
+2023-01-20 14:22:48: Wrote rhos_442
+2023-01-20 14:22:48: S2B_MSI/B1 took 0.3s (RevLUT)
+2023-01-20 14:22:48: Wrote rhot_492
+2023-01-20 14:22:48: Computing surface reflectance
+2023-01-20 14:22:48: 2
+2023-01-20 14:22:48: 492
+2023-01-20 14:22:48: 0.982
+2023-01-20 14:22:48: Interpolating tiles
+2023-01-20 14:22:48: Wrote rhos_492
+2023-01-20 14:22:48: S2B_MSI/B2 took 0.3s (RevLUT)
+2023-01-20 14:22:49: Wrote rhot_559
+2023-01-20 14:22:49: Computing surface reflectance
+2023-01-20 14:22:49: 3
+2023-01-20 14:22:49: 559
+2023-01-20 14:22:49: 0.928
+2023-01-20 14:22:49: Interpolating tiles
+2023-01-20 14:22:49: Wrote rhos_559
+2023-01-20 14:22:49: S2B_MSI/B3 took 0.3s (RevLUT)
+2023-01-20 14:22:49: Wrote rhot_665
+2023-01-20 14:22:49: Computing surface reflectance
+2023-01-20 14:22:49: 4
+2023-01-20 14:22:49: 665
+2023-01-20 14:22:49: 0.958
+2023-01-20 14:22:49: Interpolating tiles
+2023-01-20 14:22:49: Wrote rhos_665
+2023-01-20 14:22:49: S2B_MSI/B4 took 0.3s (RevLUT)
+2023-01-20 14:22:49: Wrote rhot_704
+2023-01-20 14:22:49: Computing surface reflectance
+2023-01-20 14:22:49: 5
+2023-01-20 14:22:49: 704
+2023-01-20 14:22:49: 0.951
+2023-01-20 14:22:49: Interpolating tiles
+2023-01-20 14:22:50: Wrote rhos_704
+2023-01-20 14:22:50: S2B_MSI/B5 took 0.3s (RevLUT)
+2023-01-20 14:22:50: Wrote rhot_739
+2023-01-20 14:22:50: Computing surface reflectance
+2023-01-20 14:22:50: 6
+2023-01-20 14:22:50: 739
+2023-01-20 14:22:50: 0.952
+2023-01-20 14:22:50: Interpolating tiles
+2023-01-20 14:22:50: Wrote rhos_739
+2023-01-20 14:22:50: S2B_MSI/B6 took 0.3s (RevLUT)
+2023-01-20 14:22:50: Wrote rhot_780
+2023-01-20 14:22:50: Computing surface reflectance
+2023-01-20 14:22:50: 7
+2023-01-20 14:22:50: 780
+2023-01-20 14:22:50: 0.986
+2023-01-20 14:22:50: Interpolating tiles
+2023-01-20 14:22:50: Wrote rhos_780
+2023-01-20 14:22:50: S2B_MSI/B7 took 0.3s (RevLUT)
+2023-01-20 14:22:50: Wrote rhot_833
+2023-01-20 14:22:50: Computing surface reflectance
+2023-01-20 14:22:50: 8
+2023-01-20 14:22:50: 833
+2023-01-20 14:22:50: 0.942
+2023-01-20 14:22:50: Interpolating tiles
+2023-01-20 14:22:51: Wrote rhos_833
+2023-01-20 14:22:51: S2B_MSI/B8 took 0.3s (RevLUT)
+2023-01-20 14:22:51: Wrote rhot_864
+2023-01-20 14:22:51: Computing surface reflectance
+2023-01-20 14:22:51: 8A
+2023-01-20 14:22:51: 864
+2023-01-20 14:22:51: 0.997
+2023-01-20 14:22:51: Interpolating tiles
+2023-01-20 14:22:51: Wrote rhos_864
+2023-01-20 14:22:51: S2B_MSI/B8A took 0.3s (RevLUT)
+2023-01-20 14:22:51: Wrote rhot_943
+2023-01-20 14:22:51: Wrote rhot_1377
+2023-01-20 14:22:51: Wrote rhot_1610
+2023-01-20 14:22:51: Computing surface reflectance
+2023-01-20 14:22:51: 11
+2023-01-20 14:22:51: 1610
+2023-01-20 14:22:51: 0.961
+2023-01-20 14:22:51: Interpolating tiles
+2023-01-20 14:22:51: Wrote rhos_1610
+2023-01-20 14:22:51: S2B_MSI/B11 took 0.2s (RevLUT)
+2023-01-20 14:22:51: Wrote rhot_2186
+2023-01-20 14:22:51: Computing surface reflectance
+2023-01-20 14:22:51: 12
+2023-01-20 14:22:51: 2186
+2023-01-20 14:22:51: 0.921
+2023-01-20 14:22:51: Interpolating tiles
+2023-01-20 14:22:52: Wrote rhos_2186
+2023-01-20 14:22:52: S2B_MSI/B12 took 0.3s (RevLUT)
+2023-01-20 14:22:52: Starting glint correction
+2023-01-20 14:22:52: Performing glint correction for band 1 (442 nm)
+2023-01-20 14:22:52: Wrote rhos_442
+2023-01-20 14:22:52: Performing glint correction for band 2 (492 nm)
+2023-01-20 14:22:52: Wrote rhos_492
+2023-01-20 14:22:52: Performing glint correction for band 3 (559 nm)
+2023-01-20 14:22:52: Wrote rhos_559
+2023-01-20 14:22:52: Performing glint correction for band 4 (665 nm)
+2023-01-20 14:22:52: Wrote rhos_665
+2023-01-20 14:22:52: Performing glint correction for band 5 (704 nm)
+2023-01-20 14:22:53: Wrote rhos_704
+2023-01-20 14:22:53: Performing glint correction for band 6 (739 nm)
+2023-01-20 14:22:53: Wrote rhos_739
+2023-01-20 14:22:53: Performing glint correction for band 7 (780 nm)
+2023-01-20 14:22:53: Wrote rhos_780
+2023-01-20 14:22:53: Performing glint correction for band 8 (833 nm)
+2023-01-20 14:22:53: Wrote rhos_833
+2023-01-20 14:22:53: Performing glint correction for band 8A (864 nm)
+2023-01-20 14:22:53: Wrote rhos_864
+2023-01-20 14:22:53: Performing glint correction for band 11 (1610 nm)
+2023-01-20 14:22:53: Wrote rhos_1610
+2023-01-20 14:22:53: Performing glint correction for band 12 (2186 nm)
+2023-01-20 14:22:54: Wrote rhos_2186
+2023-01-20 14:22:54: Wrote /Users/croja022/Desktop/out2/S2B_MSI_2022_10_22_16_06_12_T17RNJ_L2R.nc
+2023-01-20 14:22:55: Wrote /Users/croja022/Desktop/out2/S2B_MSI_2022_10_22_16_06_12_T17RNJ_L2R_rgb_rhos.png
