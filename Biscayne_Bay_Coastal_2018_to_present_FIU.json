@@ -1,0 +1,33 @@
+{
+    "abstract": "Data in this collection include water quality measurements gathered from a fleet of state-of-the-art and built-in-house robotic platforms deployed to Biscayne Bay of South Florida. Remote sensing images of the bay are also included. The data is organized in 4 levels. Level 1 contains data that is processed by it's originating source. Level 2 data contains data that was processed using third party software or custom computer programs. Level 3 data contains fused data. Level 4 data contains applications developed using data from previous levels.",
+    "additional_contacts": [],
+    "completeness_report": "",
+    "constraints": "",
+    "data_consistency_report": "",
+    "data_table_attributes": "",
+    "directory_title": "Biscayne_Bay_Coastal_2018_to_present_FIU",
+    "keywords": [
+        "MARINE",
+        "ENVIRONMENT",
+        "MONITORING",
+        "Water-based Platforms",
+        "ATLANTIC",
+        "OCEAN"
+    ],
+    "lineage_statement": "",
+    "metadata_info": "",
+    "originator": "Cesar A. Rojas,croja022@fiu.edu",
+    "point_of_contact": "",
+    "presentation_form": "Table Digital: spreadsheets, csv files, json, TIFF, netcdf",
+    "principal_investigator": "",
+    "process_steps": "",
+    "purpose": "This dataset was developed as part of a research project investigating machine learning applications in coastal waters such as Biscaybe Bay. Biscayne Bay has experienced a number of harmful water events in recent years and FIU, a nearby university, has expressed research interest for reasons such as marine life and economic conservation.",
+    "spatial_bounds": "northbiscaynebay.json",
+    "status_and_Maintenance": "",
+    "taxonomic_information": "",
+    "time_periods": [
+        "20181004 to Present"
+    ],
+    "title": "Biscayne Bay Water Quality Monitoring Project from October 4th, 2018 to Present by Florida International University (FIU)",
+    "topic_category": "Inland Waters"
+}
