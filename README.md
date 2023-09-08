@@ -34,9 +34,9 @@ Installing GDAL packages on Windows is complicated, for higher chances of succes
 
 6. Run '20221007_SDUE_knn.py' to create the Satellite Derived Underwater Enviornment (SDUE) using KNN regressors that extend the surface water quality estimates to lower levels.
 
-7. Run '20221007_SDUE_plot.py' to draw a 3-D surface plot depicting the water quality estimates for each parameter.
+7. Run '20221007_SDUE_plot.py' to draw a 3-D contour plot depicting the water quality estimates for each parameter.
 
-8. Run '20221007_SDUE_plot2.py' to draw a 3-D contour plot depicting the water quality estimates for each parameter.
+8. Run '20221007_SDUE_plot2.py' to draw a 3-D surface plot depicting the water quality estimates for each parameter.
 
 9. The jupyter notebook 'Example_execution.ipynb' shows how to use the SDUE in a kalman filter.
 
