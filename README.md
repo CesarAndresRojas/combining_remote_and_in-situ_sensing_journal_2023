@@ -50,12 +50,6 @@ All scripts do the following:
 
 - Outputs Charts to the 'data' directory, typically in the level 4 subdirectory.
 
-## Contributors
-
-- Cesar A. Rojas(https://github.com/croja022)
-- Jose Fuentes(https://github.com/hcabr027)
-- Paulo Padrao(https://github.com/pvpadrao)
-
 ## Related Links
 - Low-cost airboat USVs(https://github.com/AdmiralCrow/HoverBoat)
 
