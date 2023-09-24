@@ -49,10 +49,7 @@ All scripts do the following:
 - Datasets are organized by 'level' according to the amount of processing.
 
 - Outputs Charts to the 'data' directory, typically in the level 4 subdirectory.
-
-## Related Links
-- Low-cost airboat USVs(https://github.com/AdmiralCrow/AirBoat)
-
+  
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
