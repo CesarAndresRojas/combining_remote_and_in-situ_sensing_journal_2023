@@ -51,7 +51,7 @@ All scripts do the following:
 - Outputs Charts to the 'data' directory, typically in the level 4 subdirectory.
 
 ## Related Links
-- Low-cost airboat USVs(https://github.com/AdmiralCrow/HoverBoat)
+- Low-cost airboat USVs(https://github.com/AdmiralCrow/AirBoat)
 
 ## License
 
