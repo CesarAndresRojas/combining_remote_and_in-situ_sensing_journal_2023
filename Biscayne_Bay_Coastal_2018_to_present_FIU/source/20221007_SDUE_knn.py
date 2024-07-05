@@ -31,12 +31,13 @@ insitu_f = '../data/level_1/in-situ/isolated/10072022/100722_SURFACE_WATER_QUALI
 insitu_df = pd.read_csv(insitu_f, sep=',', low_memory=False).dropna()
 
 water_column_f_list = ['../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_002.csv',
-'../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_003.csv',
-'../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_004.csv',
-'../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_005.csv']
+                       '../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_003.csv',
+                       '../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_004.csv',
+                       '../data/level_1/in-situ/isolated/10072022/100722_WATER_QUALITY_005.csv']
 
 navigation_chart_f = '../data/level_3/pixEx_S2A-B_MSI_100722_NOAA_CHART_11467_NetCDF_measurements.csv'
-navigation_chart_df = pd.read_csv(navigation_chart_f, sep=',', low_memory=False).dropna()
+navigation_chart_df = pd.read_csv(
+    navigation_chart_f, sep=',', low_memory=False).dropna()
 navigation_chart_df['Total Water Column (m)'] = navigation_chart_df['Total Water Column (ft)'] * 0.3048
 
 SBD_f = '../data/level_4/20221007_SBD.csv'
@@ -79,7 +80,8 @@ print(df['water_mask'][len(df) - 1])
 df['x'] = df['x'].subtract(df['x'].min()).divide(10).astype(int)
 df['y'] = df['y'].subtract(df['y'].min()).divide(10).astype(int)
 
-print(df.pivot_table(values=['lat', 'lon', 'SBD', 'SDoD', 'SCD', 'STempD', 'STurbD', 'water_mask'], index=['x', 'y'], fill_value=0))
+print(df.pivot_table(values=['lat', 'lon', 'SBD', 'SDoD', 'SCD',
+      'STempD', 'STurbD', 'water_mask'], index=['x', 'y'], fill_value=0))
 
 # Remove outliers
 
@@ -103,11 +105,16 @@ max_temp = insitu_df['Temp °C'].max()
 min_turbidity = insitu_df['Turbidity FNU'].min()
 max_turbidity = insitu_df['Turbidity FNU'].max()
 
-df.loc[df['SBD'] < constants.extreme_min_depth, 'SBD'] = constants.extreme_min_depth
-df.loc[df['SDoD'] < constants.extreme_min_do, 'SDoD'] = constants.extreme_min_do
-df.loc[df['SCD'] < constants.extreme_min_chla, 'SCD'] = constants.extreme_min_chla
-df.loc[df['STempD'] < constants.extreme_min_temp, 'STempD'] = constants.extreme_min_temp
-df.loc[df['STurbD'] < constants.extreme_min_turbidity, 'STurbD'] = constants.extreme_min_turbidity
+df.loc[df['SBD'] < constants.extreme_min_depth,
+       'SBD'] = constants.extreme_min_depth
+df.loc[df['SDoD'] < constants.extreme_min_do,
+       'SDoD'] = constants.extreme_min_do
+df.loc[df['SCD'] < constants.extreme_min_chla,
+       'SCD'] = constants.extreme_min_chla
+df.loc[df['STempD'] < constants.extreme_min_temp,
+       'STempD'] = constants.extreme_min_temp
+df.loc[df['STurbD'] < constants.extreme_min_turbidity,
+       'STurbD'] = constants.extreme_min_turbidity
 
 df.loc[df['SBD'] > max_depth, 'SBD'] = max_depth + 1
 
@@ -122,18 +129,20 @@ colIDs = df['y']
 
 # Setup image array and set values into it from "grumpiness" column
 A = np.zeros((rowIDs.max() + 1, colIDs.max() + 1, 9))
-A[rowIDs, colIDs] = df[['lat', 'lon', 'SBD', 'SDoD', 'SCD', 'STempD', 'STurbD', 'water_mask', 'water_mask2']]
+A[rowIDs, colIDs] = df[['lat', 'lon', 'SBD', 'SDoD', 'SCD',
+                        'STempD', 'STurbD', 'water_mask', 'water_mask2']]
 print(A[rowIDs.max()][colIDs.max()])
 # ODO,CHLA, TEMP, TURB
 n_neighbors_list = [
-[2, 2, 2, 2],
-[2, 2, 2, 2],
-[2, 2, 2, 2],
-[2, 2, 2, 2]
+    [2, 2, 2, 2],
+    [2, 2, 2, 2],
+    [2, 2, 2, 2],
+    [2, 2, 2, 2]
 ]
 
 #model_list = [hlp.create_knn_regression_models(water_column_f, n_neighbors, [True,True,True,True]) for water_column_f, n_neighbors in zip(water_column_f_list, n_neighbors_list)]
-model_list = [hlp.create_knn_regression_models(water_column_f, n_neighbors, [True,True,True,True], str(i) +'_') for i, (water_column_f, n_neighbors) in enumerate(zip(water_column_f_list, n_neighbors_list))]
+model_list = [hlp.create_knn_regression_models(water_column_f, n_neighbors, [True, True, True, True], str(
+    i) + '_') for i, (water_column_f, n_neighbors) in enumerate(zip(water_column_f_list, n_neighbors_list))]
 
 # max_depth = math.ceil(pier_df['SBD'].max())
 global_max_depth = constants.extreme_max_depth
@@ -154,35 +163,45 @@ for i in range(rowIDs.max() + 1):
         scaler = MinMaxScaler(feature_range=(0, 1))
         depth_scale = scaler.fit_transform([[i] for i in range(max_depth)])
 
-        model_lat, model_lon, SDoD_knn, SCD_knn, STempD_knn, STurbD_knn = hlp.get_closest_model(lat, lon, model_list)
-        
+        model_lat, model_lon, SDoD_knn, SCD_knn, STempD_knn, STurbD_knn = hlp.get_closest_model(
+            lat, lon, model_list)
+
         y_intercept_do = SDoD_knn.predict([[0]])[0]
         y_intercept_chla = SCD_knn.predict([[0]])[0]
         y_intercept_temp = STempD_knn.predict([[0]])[0]
         y_intercept_turb = STurbD_knn.predict([[0]])[0]
-        
+
         for k in range(global_max_depth):
-            if max_depth > 0 and k < max_depth: 
+            if max_depth > 0 and k < max_depth:
                 input_list = [[k]]
                 # input_scaled = scaler.transform(input_list)
                 knn_input = [[depth_scale[k][0]]]
-                
-                predicted_do = SDoD_knn.predict(knn_input)[0] - y_intercept_do + surface_do
-                predicted_do = np.maximum(predicted_do, constants.extreme_min_do)
 
-                predicted_chla = SDoD_knn.predict(knn_input)[0] - y_intercept_chla + surface_chla
-                predicted_chla = np.maximum(predicted_chla, constants.extreme_min_chla)
+                predicted_do = SDoD_knn.predict(
+                    knn_input)[0] - y_intercept_do + surface_do
+                predicted_do = np.maximum(
+                    predicted_do, constants.extreme_min_do)
+
+                predicted_chla = SDoD_knn.predict(
+                    knn_input)[0] - y_intercept_chla + surface_chla
+                predicted_chla = np.maximum(
+                    predicted_chla, constants.extreme_min_chla)
 
                 if water_mask2 == 1:
-                    predicted_temp = STempD_knn.predict(knn_input)[0] - y_intercept_temp + surface_temp
-                    predicted_temp = np.maximum(predicted_temp, constants.extreme_min_temp)
+                    predicted_temp = STempD_knn.predict(
+                        knn_input)[0] - y_intercept_temp + surface_temp
+                    predicted_temp = np.maximum(
+                        predicted_temp, constants.extreme_min_temp)
                 else:
                     predicted_temp = 0
 
-                predicted_turb = STurbD_knn.predict(knn_input)[0] - y_intercept_turb + surface_turb
-                predicted_turb = np.maximum(predicted_turb, constants.extreme_min_turbidity)
+                predicted_turb = STurbD_knn.predict(
+                    knn_input)[0] - y_intercept_turb + surface_turb
+                predicted_turb = np.maximum(
+                    predicted_turb, constants.extreme_min_turbidity)
 
-                B[i][j][k] = [predicted_do, predicted_chla, predicted_temp, predicted_turb]
+                B[i][j][k] = [predicted_do, predicted_chla,
+                              predicted_temp, predicted_turb]
 
 print('Bottom right pixel')
 print(B[-1][0])
